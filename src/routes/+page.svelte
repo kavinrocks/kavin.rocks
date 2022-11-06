@@ -1,9 +1,12 @@
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Home of kavin.rocks"/>
+</svelte:head>
+
 <script>
 	import 'uno.css';
-	import NavBar from '../components/NavBar.svelte';
 </script>
 
-<NavBar />
 <h1>Hello World!</h1>
 
 <style>
