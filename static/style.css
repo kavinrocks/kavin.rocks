@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #1E1E2E;
+    --text-color: #E1E1E1;
+    --accent-color: #ABE9B3;
+    --subtle-color: #C3BAC6;
+}
+
+html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    width: 100%;
+    min-height: 80vh;
+}
