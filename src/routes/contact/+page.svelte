@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Contact</title>
-	<meta name="description" content="Contact the owner of kavin.rocks"/>
+	<meta name="description" content="Contact the owner of kavin.rocks" />
 </svelte:head>
 
 <section>

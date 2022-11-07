@@ -1,18 +1,21 @@
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Home of kavin.rocks"/>
-</svelte:head>
-
 <script>
 	import 'uno.css';
 </script>
+
+<svelte:head>
+	<title>Home</title>
+	<meta title="description" content="kavin.rocks" />
+	<meta name="description" content="Home of kavin.rocks" />
+</svelte:head>
 
 <section>
 	<h1>Welcome to kavin.rocks</h1>
 	<h2 id="cmd">> ~/<span>_</span></h2>
 	<div id="about">
 		<div>Hosted services can be found <a href="/services">here</a>.</div>
-		<div>The instances are spread over India, UK, US, Cannada, Netherlands, Germany and France.</div>
+		<div>
+			The instances are spread over India, UK, US, Cannada, Netherlands, Germany and France.
+		</div>
 	</div>
 </section>
 
@@ -30,7 +33,7 @@
 		color: var(--accent-color);
 	}
 
-	#cmd>span {
+	#cmd > span {
 		font-weight: 900;
 		animation: infinite blinking 1s ease-in-out;
 	}
