@@ -6,11 +6,11 @@ import { extractorSvelte } from '@unocss/core';
 /** @type {import('vite').UserConfig} */
 const config = {
 	plugins: [
-		sveltekit(),
-		Unocss(),
-		VitePWA({
+		Unocss({
 			extractors: [extractorSvelte]
-		})
+		}),
+		sveltekit(),
+		VitePWA()
 	]
 };
 
