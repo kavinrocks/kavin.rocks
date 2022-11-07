@@ -14,4 +14,15 @@ html {
 section {
     width: 100%;
     min-height: 80vh;
+    max-width: 50rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+a:hover {
+    text-decoration: underline;
 }
