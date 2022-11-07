@@ -1105,6 +1105,14 @@
     "@rollup/pluginutils" "^3.1.0"
     magic-string "^0.25.7"
 
+"@rollup/plugin-replace@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-4.0.0.tgz#e34c457d6a285f0213359740b43f39d969b38a67"
+  integrity sha512-+rumQFiaNac9y64OHtkHGmdjm7us9bo1PlbgQfdihQtuNxzjpaB064HbRnewUOggLQxVCCyINfStkgmBeQpv1g==
+  dependencies:
+    "@rollup/pluginutils" "^3.1.0"
+    magic-string "^0.25.7"
+
 "@rollup/pluginutils@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
@@ -3837,11 +3845,12 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vite-plugin-pwa@0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.13.1.tgz#345133f947d4fc8252a1fd96f2fcb0e17c4201ae"
-  integrity sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==
+vite-plugin-pwa@0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.13.3.tgz#555916ae9c6bcdd1a04db909894f67d860c3bdc6"
+  integrity sha512-cjWXpZ7slAY14OKz7M8XdgTIi9wjf6OD6NkhiMAc+ogxnbUrecUwLdRtfGPCPsN2ftut5gaN1jTghb11p6IQAA==
   dependencies:
+    "@rollup/plugin-replace" "^4.0.0"
     debug "^4.3.4"
     fast-glob "^3.2.11"
     pretty-bytes "^6.0.0"
