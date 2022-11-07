@@ -14,6 +14,7 @@
 	#nav-links {
 		display: flex;
 		justify-content: space-evenly;
+		margin: 1rem 10vw;
 	}
 
 	#nav-links li {
