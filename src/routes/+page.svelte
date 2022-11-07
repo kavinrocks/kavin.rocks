@@ -12,7 +12,7 @@
 	<h2 id="cmd">> ~/<span>_</span></h2>
 	<div id="about">
 		<div>Hosted services can be found <a href="/services">here</a>.</div>
-		<div>The instances are spread over India, UK, US, Germany and France.</div>
+		<div>The instances are spread over India, UK, US, Cannada, Netherlands, Germany and France.</div>
 	</div>
 </section>
 
