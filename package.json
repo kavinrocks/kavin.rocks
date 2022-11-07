@@ -14,7 +14,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "1.0.0-next.84",
 		"@sveltejs/adapter-vercel": "1.0.0-next.81",
-		"@sveltejs/kit": "1.0.0-next.520",
+		"@sveltejs/kit": "1.0.0-next.538",
 		"@unocss/preset-icons": "0.45.30",
 		"@unocss/transformer-directives": "0.45.30",
 		"@unocss/transformer-variant-group": "0.45.30",
