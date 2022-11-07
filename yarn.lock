@@ -922,7 +922,7 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@cloudflare/workers-types@^3.14.0":
+"@cloudflare/workers-types@^3.18.0":
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-3.18.0.tgz#b4177cbe9306d7df4654db594d6e77c036341d2e"
   integrity sha512-ehKOJVLMeR+tZkYhWEaLYQxl0TaIZu/kE86HF3/RidR8Xv5LuQxpbh+XXAoKVqsaphWLhIgBhgnlN5HGdheXSQ==
@@ -1133,40 +1133,32 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@sveltejs/adapter-auto@1.0.0-next.84":
-  version "1.0.0-next.84"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.84.tgz#33aad16a6702ffba8b9155b7e32be556899a9357"
-  integrity sha512-95NI5dZ3ZNd4vs1/N5knTcArBlWL9pBw2IANCBAcGzwVMoGPjKyyMKZt1gEX74LVwCN6RSRPZ36+6Z6HEb/ojQ==
+"@sveltejs/adapter-auto@1.0.0-next.87":
+  version "1.0.0-next.87"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.87.tgz#40834b41535089a37456e029d971bf00816c60a0"
+  integrity sha512-0MPCKo3aY1i3oESI6ZZikOB+MDV89WlWj4ot+/WEsP1J2uDA2HSirCZYWDnLB5i00HDHzqwBOfDDwHJ00pPC4w==
   dependencies:
-    "@sveltejs/adapter-cloudflare" "1.0.0-next.39"
-    "@sveltejs/adapter-netlify" "1.0.0-next.81"
-    "@sveltejs/adapter-vercel" "1.0.0-next.80"
+    "@sveltejs/adapter-cloudflare" "1.0.0-next.40"
+    "@sveltejs/adapter-netlify" "1.0.0-next.84"
+    "@sveltejs/adapter-vercel" "1.0.0-next.81"
 
-"@sveltejs/adapter-cloudflare@1.0.0-next.39":
-  version "1.0.0-next.39"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.39.tgz#83e1bfc82ba4f04b6931387c3ac2e752d27746be"
-  integrity sha512-95iRY3+mFVqEp4BqTJQGAyga7gSovIsm4SvhqsfBE/IQLkb2MnwLq2usRkXm9R6nby4w/jzEwgQM2ohsZD2HHA==
+"@sveltejs/adapter-cloudflare@1.0.0-next.40":
+  version "1.0.0-next.40"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.40.tgz#d960d93cd81e34d87aea3b6936a0cd721951d66a"
+  integrity sha512-KT4TK40T9pl24nPFWHgw1QwAv9AjOkUymjFpS07Ro2zeBHJVgga1Jl0OA1bsiyEiLNRivNRwaWHFySlZ2JJpxQ==
   dependencies:
-    "@cloudflare/workers-types" "^3.14.0"
-    esbuild "^0.15.7"
+    "@cloudflare/workers-types" "^3.18.0"
+    esbuild "^0.15.12"
     worktop "0.8.0-next.14"
 
-"@sveltejs/adapter-netlify@1.0.0-next.81":
-  version "1.0.0-next.81"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.81.tgz#8592bcc07414008938e880c2ce5c82ffe657f4a5"
-  integrity sha512-jWZHw2uqUMJk8lFPzRm0xxmBZoDc430tbeCU9EtYhG+ypze2B6pJAlNTtcN3/J7wapHq19TgEK5oNt4LqORfNg==
+"@sveltejs/adapter-netlify@1.0.0-next.84":
+  version "1.0.0-next.84"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.84.tgz#6581e3ca5528da1616518717295e6bff632e48c7"
+  integrity sha512-i4vf3to0sV/iI39UPPhlVjOP+jZCZ048M4oHkqDM1FfJwACwgXaysdF2t4X0DV3loLmrkfarwbatjbGIECA9uQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
-    esbuild "^0.15.7"
-    set-cookie-parser "^2.4.8"
-
-"@sveltejs/adapter-vercel@1.0.0-next.80":
-  version "1.0.0-next.80"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.80.tgz#8ac660d94e9859f84a4a568123ec1c84ad020d75"
-  integrity sha512-a1ibKgN5RsNw6HPzhNKrPuEndgYRXCYlGIioVzfKpt/tEr4RuV5o/bST2FBgjCIWCqajKhWg1QLZmN2DZfPy6Q==
-  dependencies:
-    "@vercel/nft" "^0.22.0"
-    esbuild "^0.15.7"
+    esbuild "^0.15.12"
+    set-cookie-parser "^2.5.1"
 
 "@sveltejs/adapter-vercel@1.0.0-next.81":
   version "1.0.0-next.81"
@@ -1413,7 +1405,7 @@
     "@unocss/transformer-directives" "0.45.30"
     magic-string "^0.26.7"
 
-"@vercel/nft@^0.22.0", "@vercel/nft@^0.22.1":
+"@vercel/nft@^0.22.1":
   version "0.22.1"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.1.tgz#0d91d2a21e3a7f0b23ce1550da9870eac4942828"
   integrity sha512-lYYZIoxRurqDOSoVIdBicGnpUIpfyaS5qVjdPq+EfI285WqtZK3NK/dyCkiyBul+X2U2OEhRyeMdXPCHGJbohw==
@@ -2013,7 +2005,7 @@ esbuild-windows-arm64@0.15.13:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.13.tgz#4ffd01b6b2888603f1584a2fe96b1f6a6f2b3dd8"
   integrity sha512-3bv7tqntThQC9SWLRouMDmZnlOukBhOCTlkzNqzGCmrkCJI7io5LLjwJBOVY6kOUlIvdxbooNZwjtBvj+7uuVg==
 
-esbuild@^0.15.12, esbuild@^0.15.6, esbuild@^0.15.7:
+esbuild@^0.15.12, esbuild@^0.15.6:
   version "0.15.13"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.15.13.tgz#7293480038feb2bafa91d3f6a20edab3ba6c108a"
   integrity sha512-Cu3SC84oyzzhrK/YyN4iEVy2jZu5t2fz66HEOShHURcjSkOSAVL8C/gfUT+lDJxkVHpg8GZ10DD0rMHRPqMFaQ==
@@ -3394,7 +3386,7 @@ set-blocking@^2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==
 
-set-cookie-parser@^2.4.8:
+set-cookie-parser@^2.4.8, set-cookie-parser@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.5.1.tgz#ddd3e9a566b0e8e0862aca974a6ac0e01349430b"
   integrity sha512-1jeBGaKNGdEq4FgIrORu/N570dwoPYio8lSoYLWmX7sQ//0JY08Xh9o5pBcgmHQ/MbsYp/aZnOe1s1lIsbLprQ==
