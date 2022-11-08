@@ -3,6 +3,15 @@
 	--text-color: #e1e1e1;
 	--accent-color: #abe9b3;
 	--subtle-color: #c3bac6;
+	--max-width: 50rem;
+	--subtle-filter: brightness(0) saturate(100%) invert(89%) sepia(10%) saturate(208%) hue-rotate(240deg)
+	brightness(84%) contrast(89%);
+	--accent-filter: brightness(0) saturate(100%) invert(90%) sepia(5%) saturate(1744%) hue-rotate(74deg)
+	brightness(95%) contrast(96%);
+}
+
+* {
+	box-sizing: border-box;
 }
 
 html {
@@ -14,7 +23,7 @@ html {
 section {
 	width: 100%;
 	min-height: 80vh;
-	max-width: 50rem;
+	max-width: var(--max-width);
 	padding: 2rem;
 	margin: 0 auto;
 }

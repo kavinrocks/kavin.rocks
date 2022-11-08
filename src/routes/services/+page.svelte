@@ -44,13 +44,11 @@
 		width: auto;
 		margin: 1rem;
 		transition: all ease-in-out 0.5s;
-		filter: brightness(0) saturate(100%) invert(89%) sepia(10%) saturate(208%) hue-rotate(240deg)
-			brightness(84%) contrast(89%);
+		filter: var(--subtle-filter);
 	}
 
 	#services a img:hover {
 		scale: 1.3;
-		filter: brightness(0) saturate(100%) invert(90%) sepia(5%) saturate(1744%) hue-rotate(74deg)
-			brightness(95%) contrast(96%);
+		filter: var(--accent-filter);
 	}
 </style>

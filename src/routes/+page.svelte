@@ -8,7 +8,7 @@
 	<meta name="description" content="Home of kavin.rocks" />
 </svelte:head>
 
-<section>
+<section id="home">
 	<h1>Welcome to kavin.rocks</h1>
 	<h2 id="cmd">> ~/<span>_</span></h2>
 	<div id="about">
@@ -20,9 +20,15 @@
 </section>
 
 <style>
+	#home {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	h1 {
 		@apply text-4xl font-bold text-center;
-		margin-top: 15vh;
 	}
 
 	h2 {
@@ -39,7 +45,7 @@
 	}
 
 	#about {
-		margin-top: 15vh;
+		margin: 10vh 0;
 	}
 
 	#about div {
