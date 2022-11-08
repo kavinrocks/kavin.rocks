@@ -8,7 +8,3 @@
 	<p>Matrix: @kavin1337:matrix.org</p>
 	<p>Email: <a href="mailto:kavin@kavin.rocks">kavin@kavin.rocks</a></p>
 </section>
-
-<style>
-	
-</style>
