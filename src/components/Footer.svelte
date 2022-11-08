@@ -1,5 +1,5 @@
 <footer>
-    <p>© {new Date().getFullYear()} kavin.rocks</p>
+	<p title="Licensed under the AGPL 3.0">© {new Date().getFullYear()} kavin.rocks</p>
     <div id="social-links">
         <a href="https://github.com/kavinrocks/kavin.rocks">
             <img src="/github.svg" alt="GitHub" />
