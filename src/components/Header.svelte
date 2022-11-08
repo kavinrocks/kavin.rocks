@@ -1,7 +1,7 @@
 <header>
-	<div id="brand">
+	<a href="/" id="brand">
 		<span>kavin</span>
-	</div>
+	</a>
 	<nav>
 		<input type="checkbox" id="nav-toggle">
 		<label for="nav-toggle" id="hamburger">
