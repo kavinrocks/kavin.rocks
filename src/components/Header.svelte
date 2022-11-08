@@ -24,10 +24,12 @@
 
 	header {
 		height: var(--header-height);
+		background: var(--bg-color);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		max-width: var(--max-width);
+		padding: 0 1rem;
 		margin: 0 auto;
 	}
 
@@ -36,8 +38,8 @@
 	}
 
 	#hamburger {
-		height: 1.5rem;
-		width: 2rem;
+		height: 1.2rem;
+		width: 1.5rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -53,7 +55,10 @@
 
 	#nav-links {
 		display: flex;
-		position: absolute;
+		position: fixed;
+		/** reset browser defaults */
+		margin: 0;
+		padding: 0;
 		margin-top: var(--header-height);
 		padding-bottom: var(--header-height);
 		background: var(--bg-color);

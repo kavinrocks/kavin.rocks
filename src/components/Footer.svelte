@@ -9,8 +9,8 @@
 
 <style>
     footer {
-        padding: 1rem 0;
-        width: var(--max-width);
+        padding: 1rem 0.5rem;
+        max-width: var(--max-width);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -19,7 +19,7 @@
 
     footer img {
         filter: var(--subtle-filter);
-        height: 2rem;
+        height: 1.5rem;
         width: auto;
     }
 
