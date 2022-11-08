@@ -1,4 +1,7 @@
 <nav>
+	<div id="brand">
+		<span>kavin</span>
+	</div>
 	<ul id="nav-links">
 		<li><a href="/">Home</a></li>
 		<li><a href="/services">Services</a></li>
@@ -9,12 +12,15 @@
 <style>
 	nav {
 		padding: 1rem 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: var(--max-width);
+		margin: 0 auto;
 	}
 
 	#nav-links {
 		display: flex;
-		justify-content: space-evenly;
-		margin: 1rem 10vw;
 	}
 
 	#nav-links li {
