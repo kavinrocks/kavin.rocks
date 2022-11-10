@@ -2,11 +2,16 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["config:base", "group:recommended"],
 	"ignorePresets": [":prHourlyLimit2"],
+	"platformAutomerge": true,
 	"packageRules": [
 		{
 			"matchPackagePrefixes": ["@unocss/"],
 			"matchPackageNames": ["unocss"],
 			"groupName": "unocss"
+		},
+		{
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+			"automerge": true
 		}
 	]
 }
