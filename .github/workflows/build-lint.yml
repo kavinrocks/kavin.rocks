@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          cache: "yarn"
+          cache: 'yarn'
       - name: Install dependencies
         run: yarn install
       - name: Build
