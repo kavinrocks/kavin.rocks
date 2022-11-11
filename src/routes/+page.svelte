@@ -14,7 +14,7 @@
 	<div id="about">
 		<div>Hosted services can be found <a href="/services">here</a>.</div>
 		<div>
-			The instances are spread over India, UK, US, Cannada, Netherlands, Germany and France.
+			The instances are spread over India, UK, US, Canada, Netherlands, Germany and France.
 		</div>
 	</div>
 </section>
