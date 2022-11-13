@@ -1,3 +1,25 @@
+<script>
+	class Service {
+		/**
+		 * @param {string} url
+		 * @param {string} name
+		 * @param {string} src
+		 */
+		constructor(url, name, src) {
+			this.url = url;
+			this.name = name;
+			this.iconSrc = src;
+		}
+	}
+
+	let services = [
+		new Service('https://piped.kavin.rocks', 'Piped', '/piped.svg'),
+		new Service('https://searxng.kavin.rocks', 'SearXNG', '/searxng.svg'),
+		new Service('https://libreddit.kavin.rocks', 'Libreddit', '/libreddit.png'),
+		new Service('https://nitter.kavin.rocks', 'Nitter', '/nitter.svg')
+	];
+</script>
+
 <svelte:head>
 	<title>Services</title>
 	<meta name="description" content="Services hosted at kavin.rocks" />
@@ -5,34 +27,12 @@
 
 <div id="services">
 	{#each services as service}
-	<a href={service.url}>
-		<img src={service.iconSrc} alt={service.name} />
-		<h4>{service.name}</h4>
-	</a>
+		<a href={service.url}>
+			<img src={service.iconSrc} alt={service.name} />
+			<h4>{service.name}</h4>
+		</a>
 	{/each}
 </div>
-
-<script>
-	class Service {
-  		/**
-		 * @param {string} url
-		 * @param {string} name
-		 * @param {string} src
-		 */
-  		constructor(url, name, src) {
-    		this.url = url;
-    		this.name = name;
-			this.iconSrc = src;
-  		}
-	}
-
-	let services = [
-		new Service("https://piped.kavin.rocks", "Piped", "/piped.svg"),
-		new Service("https://searxng.kavin.rocks", "SearXNG", "/searxng.svg"),
-		new Service("https://libreddit.kavin.rocks", "Libreddit", "/libreddit.png"),
-		new Service("https://nitter.kavin.rocks", "Nitter", "/nitter.svg")
-	]
-</script>
 
 <style>
 	:root {
