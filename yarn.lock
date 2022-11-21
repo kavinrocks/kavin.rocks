@@ -1136,10 +1136,10 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@sveltejs/adapter-vercel@1.0.0-next.83":
-  version "1.0.0-next.83"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.83.tgz#f0ac78e23111ca7bcaa32765a4bfd3bacac70a27"
-  integrity sha512-1uk7WT12HGonTqHwRw+ho51smrjT8ZDtJZWT+oXlY57w2JIxoSkPwlZhLyUM2hGRpK3IynJ4tovtlAY2iGIfWQ==
+"@sveltejs/adapter-vercel@1.0.0-next.84":
+  version "1.0.0-next.84"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.84.tgz#57273863dc5a72cdb890922134414a35af32f4ff"
+  integrity sha512-1HoUDSG6EDydRfvrgwlNSlGjCw3vUtSk55ipm6OUVujg2oRve9Ge2+kK2w8ojkZiMuTpWu+plbQMr8yuktoeJQ==
   dependencies:
     "@vercel/nft" "^0.22.1"
     esbuild "^0.15.12"
