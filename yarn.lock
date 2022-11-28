@@ -1144,10 +1144,10 @@
     "@vercel/nft" "^0.22.1"
     esbuild "^0.15.12"
 
-"@sveltejs/kit@1.0.0-next.563":
-  version "1.0.0-next.563"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.563.tgz#9001e8eaef5264c7a9b8777847815eb718d67678"
-  integrity sha512-RvQSE6dOuH4vE2hM5K/DezJlm9RjC5EMQK8X46mBXIggp8unaDH+YJyF+KRvAZE5sV93Hk5xaq0WZa8jtU42Jw==
+"@sveltejs/kit@1.0.0-next.564":
+  version "1.0.0-next.564"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.564.tgz#334cb1c93da9de5a731f35b17ea89641ca809ccc"
+  integrity sha512-j5X8NVA+ros3YDaybsrybnsZasrsMKacAhLGll36SGkBDagCQANlY6O5B7fxP0FrejiuN6ZLh0hnROGsl5qAlQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.3.1"
     "@types/cookie" "^0.5.1"
@@ -1160,7 +1160,7 @@
     set-cookie-parser "^2.5.1"
     sirv "^2.0.2"
     tiny-glob "^0.2.9"
-    undici "5.12.0"
+    undici "5.13.0"
 
 "@sveltejs/vite-plugin-svelte@^1.3.1":
   version "1.3.1"
@@ -3721,7 +3721,14 @@ unconfig@^0.3.7:
     defu "^6.1.0"
     jiti "^1.16.0"
 
-undici@5.12.0, undici@^5.12.0:
+undici@5.13.0:
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.13.0.tgz#56772fba89d8b25e39bddc8c26a438bd73ea69bb"
+  integrity sha512-UDZKtwb2k7KRsK4SdXWG7ErXiL7yTGgLWvk2AXO1JMjgjh404nFo6tWSCM2xMpJwMPx3J8i/vfqEh1zOqvj82Q==
+  dependencies:
+    busboy "^1.6.0"
+
+undici@^5.12.0:
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.12.0.tgz#c758ffa704fbcd40d506e4948860ccaf4099f531"
   integrity sha512-zMLamCG62PGjd9HHMpo05bSLvvwWOZgGeiWlN/vlqu3+lRo3elxktVGEyLMX+IO7c2eflLjcW74AlkhEZm15mg==
