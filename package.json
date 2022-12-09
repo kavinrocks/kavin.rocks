@@ -12,7 +12,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "1.0.0-next.84",
+		"@sveltejs/adapter-vercel": "1.0.0-next.85",
 		"@sveltejs/kit": "1.0.0-next.577",
 		"@unocss/preset-icons": "0.47.5",
 		"@unocss/transformer-directives": "0.47.5",
