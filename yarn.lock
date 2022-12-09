@@ -1244,15 +1244,16 @@
     "@vercel/nft" "^0.22.1"
     esbuild "^0.16.3"
 
-"@sveltejs/kit@1.0.0-next.579":
-  version "1.0.0-next.579"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.579.tgz#229e88ff88283d76cf0530e0f48074e18572d6ff"
-  integrity sha512-DPtXdIuQsByeZWT0O0DUfKZRtIJ4xlIVeLy+Of7OfomNtKNrMU0cW5/EWEWvrF2TrwUrGAVXv7lkk9QCbqWpXw==
+"@sveltejs/kit@1.0.0-next.581":
+  version "1.0.0-next.581"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.581.tgz#a7a97f9fce3f3a2c8d44af964e7d2aa368d35253"
+  integrity sha512-BIBJpx4q+MOa1fFuGNhRTIm8wygl8cK6b+Ei/iaG4F1GfqbZkVclrh4p9lGobSXtuXzCBLabe88mvHQ1cd5ZqA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
     devalue "^4.2.0"
+    esm-env "^1.0.0"
     kleur "^4.1.5"
     magic-string "^0.27.0"
     mime "^3.0.0"
@@ -2104,6 +2105,11 @@ eslint@8.29.0:
     strip-ansi "^6.0.1"
     strip-json-comments "^3.1.0"
     text-table "^0.2.0"
+
+esm-env@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/esm-env/-/esm-env-1.0.0.tgz#b124b40b180711690a4cb9b00d16573391950413"
+  integrity sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==
 
 espree@^9.4.0:
   version "9.4.1"
