@@ -1244,12 +1244,12 @@
     "@vercel/nft" "^0.22.1"
     esbuild "^0.16.3"
 
-"@sveltejs/kit@1.0.0-next.577":
-  version "1.0.0-next.577"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.577.tgz#cbfa863062d01c93bd29040bd74fe883a0330e4d"
-  integrity sha512-hQuSGiF87pNNdmIMDwOr8+nMOe/tgtOne4VBpCFb4k0YrFh/5qC/pgWvWXFWeJBRi9/UzmEjGH9gJeJkgtMLmw==
+"@sveltejs/kit@1.0.0-next.579":
+  version "1.0.0-next.579"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.579.tgz#229e88ff88283d76cf0530e0f48074e18572d6ff"
+  integrity sha512-DPtXdIuQsByeZWT0O0DUfKZRtIJ4xlIVeLy+Of7OfomNtKNrMU0cW5/EWEWvrF2TrwUrGAVXv7lkk9QCbqWpXw==
   dependencies:
-    "@sveltejs/vite-plugin-svelte" "^1.3.1"
+    "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
     devalue "^4.2.0"
@@ -1262,15 +1262,15 @@
     tiny-glob "^0.2.9"
     undici "5.14.0"
 
-"@sveltejs/vite-plugin-svelte@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.3.1.tgz#1b0a109d49ec42981ea2e1d7bdb712fbc96354bb"
-  integrity sha512-2Uu2sDdIR+XQWF7QWOVSF2jR9EU6Ciw1yWfYnfLYj8HIgnNxkh/8g22Fw2pBUI8QNyW/KxtqJUWBI+8ypamSrQ==
+"@sveltejs/vite-plugin-svelte@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.0.0.tgz#1ede4b2424653996a2148482c1c2d219923dec7b"
+  integrity sha512-oUFrYQarRv4fppmxdrv00qw3wX8Ycdj0uv33MfpRZyR8K67dyxiOcHnqkB0zSy5sDJA8RC/2aNtYhXJ8NINVHQ==
   dependencies:
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.5"
-    magic-string "^0.26.7"
+    magic-string "^0.27.0"
     svelte-hmr "^0.15.1"
     vitefu "^0.2.2"
 
