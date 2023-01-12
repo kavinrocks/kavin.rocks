@@ -14,9 +14,9 @@
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "1.0.1",
 		"@sveltejs/kit": "1.0.11",
-		"@unocss/preset-icons": "0.48.3",
-		"@unocss/transformer-directives": "0.48.3",
-		"@unocss/transformer-variant-group": "0.48.3",
+		"@unocss/preset-icons": "0.48.4",
+		"@unocss/transformer-directives": "0.48.4",
+		"@unocss/transformer-variant-group": "0.48.4",
 		"eslint": "8.31.0",
 		"eslint-config-prettier": "8.6.0",
 		"eslint-plugin-svelte3": "4.0.0",
@@ -25,7 +25,7 @@
 		"svelte": "3.55.1",
 		"svelte-check": "3.0.2",
 		"typescript": "4.9.4",
-		"unocss": "0.48.3",
+		"unocss": "0.48.4",
 		"vite": "4.0.4",
 		"vite-plugin-pwa": "0.14.1"
 	},
