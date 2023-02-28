@@ -1480,6 +1480,11 @@
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.50.1.tgz#ad4659b7abc43b77458aa29214d83ad0e687da9c"
   integrity sha512-jnWClMMGybzyXcRX4DY+g/DJ4JrH9w8YN/H6OTHt0WyrNfR1V3ebJtEc6gbqCkZCh2XmqSA5F49QPhTbErYePg==
 
+"@unocss/core@0.50.2":
+  version "0.50.2"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.50.2.tgz#e8f39b7a5305018909cc51678cda6ae26893a314"
+  integrity sha512-Z8m7uRDr3cM8y/Q/LKabNZc37GHJJYFjrp0vYNn8FJhzILqVNZCb4BnJNmGgaiGGSmfQVguK8Gqvs1jdb7RqeA==
+
 "@unocss/inspector@0.50.1":
   version "0.50.1"
   resolved "https://registry.yarnpkg.com/@unocss/inspector/-/inspector-0.50.1.tgz#214d5adb7edaa34890f074aa12accdb739b5169b"
@@ -1502,6 +1507,15 @@
   dependencies:
     "@iconify/utils" "^2.1.4"
     "@unocss/core" "0.50.1"
+    ofetch "^1.0.1"
+
+"@unocss/preset-icons@0.50.2":
+  version "0.50.2"
+  resolved "https://registry.yarnpkg.com/@unocss/preset-icons/-/preset-icons-0.50.2.tgz#8a24ff1224a5ddd1e65eff78ca12d38dcfbaeb82"
+  integrity sha512-i8u1Y11qt7DR42jt6WXMlhNy08JGVkTBe4TgLASXHKrFV+K/pOVY7rguwqk4ZUbNCwLBv1F58ydAbOB5I/Fi5Q==
+  dependencies:
+    "@iconify/utils" "^2.1.4"
+    "@unocss/core" "0.50.2"
     ofetch "^1.0.1"
 
 "@unocss/preset-mini@0.50.1":
@@ -1582,12 +1596,27 @@
     "@unocss/core" "0.50.1"
     css-tree "^2.3.1"
 
+"@unocss/transformer-directives@0.50.2":
+  version "0.50.2"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-directives/-/transformer-directives-0.50.2.tgz#5d62280bd371eabf60c0b5adf243bbf79128d28f"
+  integrity sha512-2a30429GzT4QhVbbPpwr6E79G4iRXJLMejW0VtJgd5RWbxxq3RYSI8dIgG0VWwrPlNcyXs9P4reRpndrhRFV1A==
+  dependencies:
+    "@unocss/core" "0.50.2"
+    css-tree "^2.3.1"
+
 "@unocss/transformer-variant-group@0.50.1":
   version "0.50.1"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-variant-group/-/transformer-variant-group-0.50.1.tgz#1b4996970531825e7bdd61d96925170de38e5abc"
   integrity sha512-1+OBSsyHfW9mXAnzaELXWqLjcoi+B4G5R5h+9TT2RZfHqkSIu+5xu2OGsDJ2QFhNGFerv7R2k7ajVCnbQWq7TQ==
   dependencies:
     "@unocss/core" "0.50.1"
+
+"@unocss/transformer-variant-group@0.50.2":
+  version "0.50.2"
+  resolved "https://registry.yarnpkg.com/@unocss/transformer-variant-group/-/transformer-variant-group-0.50.2.tgz#7a8119058a26dfbd5f0f81118997b72d2c89ea99"
+  integrity sha512-iVnb6+A+RIOCSUM+ehLbeqCsIAXk4dqhf/N3QwfUGvH8d4qSMKYZV6PLHAp81Ufxlmx1Ub6xBgUJKUN6qipWAQ==
+  dependencies:
+    "@unocss/core" "0.50.2"
 
 "@unocss/vite@0.50.1":
   version "0.50.1"
