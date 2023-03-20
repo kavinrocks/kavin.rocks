@@ -18,7 +18,7 @@
 		"@unocss/transformer-directives": "0.50.6",
 		"@unocss/transformer-variant-group": "0.50.6",
 		"eslint": "8.36.0",
-		"eslint-config-prettier": "8.7.0",
+		"eslint-config-prettier": "8.8.0",
 		"eslint-plugin-svelte3": "4.0.0",
 		"prettier": "2.8.5",
 		"prettier-plugin-svelte": "2.9.0",
