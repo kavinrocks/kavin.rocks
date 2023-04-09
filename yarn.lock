@@ -1492,6 +1492,11 @@
   dependencies:
     "@unocss/core" "0.51.2"
 
+"@unocss/extractor-svelte@0.51.2":
+  version "0.51.2"
+  resolved "https://registry.yarnpkg.com/@unocss/extractor-svelte/-/extractor-svelte-0.51.2.tgz#88e9b91cbf8b187cbd2a38199494937846f1247a"
+  integrity sha512-BpNPKWLd/btIJhejTe86Jce4Lq13hZrQMNIhLqmNjoMd0XSDmmPe5giFRXWxsP8QPPZZeI4i/X0tK4XRXK/ocw==
+
 "@unocss/inspector@0.51.2":
   version "0.51.2"
   resolved "https://registry.yarnpkg.com/@unocss/inspector/-/inspector-0.51.2.tgz#fc3db93b6e676dfa661e3aee9057d9dc397e22cc"
@@ -3579,13 +3584,6 @@ shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
   integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
-  dependencies:
-    shebang-regex "^3.0.0"
-
-shebang-regex@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
-  integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 side-channel@^1.0.4:
   version "1.0.4"
