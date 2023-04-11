@@ -14,10 +14,10 @@
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "2.4.1",
 		"@sveltejs/kit": "1.15.4",
-		"@unocss/extractor-svelte": "0.51.2",
-		"@unocss/preset-icons": "0.51.2",
-		"@unocss/transformer-directives": "0.51.2",
-		"@unocss/transformer-variant-group": "0.51.2",
+		"@unocss/extractor-svelte": "0.51.4",
+		"@unocss/preset-icons": "0.51.4",
+		"@unocss/transformer-directives": "0.51.4",
+		"@unocss/transformer-variant-group": "0.51.4",
 		"eslint": "8.38.0",
 		"eslint-config-prettier": "8.8.0",
 		"eslint-plugin-svelte3": "4.0.0",
@@ -26,7 +26,7 @@
 		"svelte": "3.58.0",
 		"svelte-check": "3.2.0",
 		"typescript": "5.0.4",
-		"unocss": "0.51.2",
+		"unocss": "0.51.4",
 		"vite": "4.2.1",
 		"vite-plugin-pwa": "0.14.7"
 	},
