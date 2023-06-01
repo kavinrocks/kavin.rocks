@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@sveltejs/adapter-vercel':
-    specifier: 3.0.0
-    version: 3.0.0(@sveltejs/kit@1.20.1)
+    specifier: 3.0.1
+    version: 3.0.1(@sveltejs/kit@1.20.1)
   '@sveltejs/kit':
     specifier: 1.20.1
     version: 1.20.1(svelte@3.59.1)(vite@4.3.9)
@@ -1744,8 +1744,8 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /@sveltejs/adapter-vercel@3.0.0(@sveltejs/kit@1.20.1):
-    resolution: {integrity: sha512-XHbgdYtEDM70tRAN3AV5mQAis/9yLka7mLEWjzuhMwo377U1jfwxBzq2YYZdL4OF3rQnegR3yf92fTWnkEILPQ==}
+  /@sveltejs/adapter-vercel@3.0.1(@sveltejs/kit@1.20.1):
+    resolution: {integrity: sha512-PBY3YRm7Q7Prax07mxD/rvcho2CntGkYncAIkz2DtG5NTcVG5JZ1RM627it5zYYtc2/RB3YjMkZuCMBqDCiPkA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
