@@ -45,8 +45,8 @@ devDependencies:
     specifier: 3.4.4
     version: 3.4.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@4.0.0)
   typescript:
-    specifier: 5.1.5
-    version: 5.1.5
+    specifier: 5.1.6
+    version: 5.1.6
   unocss:
     specifier: 0.53.4
     version: 0.53.4(postcss@8.4.24)(rollup@2.79.1)(vite@4.3.9)
@@ -4199,8 +4199,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.0.0
-      svelte-preprocess: 5.0.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@4.0.0)(typescript@5.1.5)
-      typescript: 5.1.5
+      svelte-preprocess: 5.0.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@4.0.0)(typescript@5.1.6)
+      typescript: 5.1.6
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -4222,7 +4222,7 @@ packages:
       svelte: 4.0.0
     dev: true
 
-  /svelte-preprocess@5.0.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@4.0.0)(typescript@5.1.5):
+  /svelte-preprocess@5.0.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@4.0.0)(typescript@5.1.6):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -4268,7 +4268,7 @@ packages:
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.0.0
-      typescript: 5.1.5
+      typescript: 5.1.6
     dev: true
 
   /svelte@4.0.0:
@@ -4384,8 +4384,8 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typescript@5.1.5:
-    resolution: {integrity: sha512-FOH+WN/DQjUvN6WgW+c4Ml3yi0PH+a/8q+kNIfRehv1wLhWONedw85iu+vQ39Wp49IzTJEsZ2lyLXpBF7mkF1g==}
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
