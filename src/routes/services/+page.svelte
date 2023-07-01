@@ -16,7 +16,8 @@
 		new Service('https://piped.kavin.rocks', 'Piped', '/piped.svg'),
 		new Service('https://searx.kavin.rocks', 'SearXNG', '/searxng.svg'),
 		new Service('https://libreddit.kavin.rocks', 'Libreddit', '/libreddit.png'),
-		new Service('https://nitter.kavin.rocks', 'Nitter', '/nitter.svg')
+		new Service('https://nitter.kavin.rocks', 'Nitter', '/nitter.svg'),
+		new Service('https://feddit.rocks', 'Lemmy', '/lemmy.svg')
 	];
 </script>
 
