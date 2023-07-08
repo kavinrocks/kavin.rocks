@@ -18,8 +18,8 @@ devDependencies:
     specifier: 0.53.5
     version: 0.53.5
   '@unocss/transformer-directives':
-    specifier: 0.53.4
-    version: 0.53.4
+    specifier: 0.53.5
+    version: 0.53.5
   '@unocss/transformer-variant-group':
     specifier: 0.53.5
     version: 0.53.5
@@ -2086,10 +2086,6 @@ packages:
       unconfig: 0.3.9
     dev: true
 
-  /@unocss/core@0.53.4:
-    resolution: {integrity: sha512-JvmpuFOiJ8NkGzRmh0dCUmNdYjr8MmMtCX+czCmSnX2kvKyQjJIw3RIu84/DQbd/M/yxZmPjle8DrcZ1Ql86rQ==}
-    dev: true
-
   /@unocss/core@0.53.5:
     resolution: {integrity: sha512-jBvk4FeUAALAomGfMFFmrXLy01/5DjugdnWgawFAQpSToFTxbMHS7x+pXKu/18cq+YLS8uyl9S0Ywy1jNbfS3Q==}
     dev: true
@@ -2207,13 +2203,6 @@ packages:
     resolution: {integrity: sha512-7Z0/40T4EuHMGpXb2XlamkResaASMRm07csCl7REGUTg9ccDRWlnSLzGD8UUgKoygsmqXp2cxKMJLMb5YJ9LLA==}
     dependencies:
       '@unocss/core': 0.53.5
-    dev: true
-
-  /@unocss/transformer-directives@0.53.4:
-    resolution: {integrity: sha512-21dCt3u0WHqXFMfRkkPgjKGyDtghhqItCInr/vB9uKnJFLUdFWlqJu/wRHCUDVypeykwtaLVeCPwpvphCP+VHg==}
-    dependencies:
-      '@unocss/core': 0.53.4
-      css-tree: 2.3.1
     dev: true
 
   /@unocss/transformer-directives@0.53.5:
