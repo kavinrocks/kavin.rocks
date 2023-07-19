@@ -8,8 +8,8 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"lint": "prettier --plugin prettier-plugin-svelte --check . && eslint .",
+		"format": "prettier --plugin prettier-plugin-svelte --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "3.0.2",
