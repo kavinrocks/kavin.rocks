@@ -8,8 +8,8 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "3.0.2",
@@ -20,9 +20,9 @@
 		"@unocss/transformer-variant-group": "0.53.5",
 		"eslint": "8.45.0",
 		"eslint-config-prettier": "8.8.0",
-		"eslint-plugin-svelte3": "4.0.0",
-		"prettier": "2.8.8",
-		"prettier-plugin-svelte": "2.10.1",
+		"eslint-plugin-svelte": "2.32.2",
+		"prettier": "3.0.0",
+		"prettier-plugin-svelte": "3.0.0",
 		"svelte": "4.0.5",
 		"svelte-check": "3.4.6",
 		"typescript": "5.1.6",
