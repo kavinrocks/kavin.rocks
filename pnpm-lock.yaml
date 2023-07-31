@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@sveltejs/adapter-vercel':
-    specifier: 3.0.2
-    version: 3.0.2(@sveltejs/kit@1.22.3)
+    specifier: 3.0.3
+    version: 3.0.3(@sveltejs/kit@1.22.3)
   '@sveltejs/kit':
     specifier: 1.22.3
     version: 1.22.3(svelte@4.1.1)(vite@4.4.7)
@@ -1706,13 +1706,13 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /@sveltejs/adapter-vercel@3.0.2(@sveltejs/kit@1.22.3):
-    resolution: {integrity: sha512-CQcLoKeVmF5Si+sJax0v8KMtXviJXfDXozJt3zfPHHYytCwMcGpJXsgqpqUbkdaF2xxgXuhTD7ClhQRFThbprw==}
+  /@sveltejs/adapter-vercel@3.0.3(@sveltejs/kit@1.22.3):
+    resolution: {integrity: sha512-0FQMjR6klW4627ewdclSr0lUe/DqiiyOaRTfgb5cXgNbVMsZMOA2fQ77TYQnJdvMfSEWe6y8uznV48XqKh9+vA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
       '@sveltejs/kit': 1.22.3(svelte@4.1.1)(vite@4.4.7)
-      '@vercel/nft': 0.22.6
+      '@vercel/nft': 0.23.0
       esbuild: 0.18.17
     transitivePeerDependencies:
       - encoding
@@ -2005,8 +2005,8 @@ packages:
       - rollup
     dev: true
 
-  /@vercel/nft@0.22.6:
-    resolution: {integrity: sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==}
+  /@vercel/nft@0.23.0:
+    resolution: {integrity: sha512-1iuPjyltiPqyZrvc/bW1CyICRdng8bVhpJT8MsIXV7Wj+mRFyJs9krsHbVy2pZwu7BMAgforQsT5TCY1JoBDxw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
