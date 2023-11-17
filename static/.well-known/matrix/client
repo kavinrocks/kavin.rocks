@@ -1,5 +1,8 @@
 {
   "m.homeserver": {
     "base_url": "https://matrix.kavin.rocks"
+  },
+  "org.matrix.msc3575.proxy": {
+    "url": "https://matrix.kavin.rocks"
   }
 }
