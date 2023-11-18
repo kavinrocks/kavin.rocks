@@ -18,7 +18,7 @@
 		"@unocss/preset-icons": "0.57.5",
 		"@unocss/transformer-directives": "0.57.5",
 		"@unocss/transformer-variant-group": "0.57.5",
-		"eslint": "8.53.0",
+		"eslint": "8.54.0",
 		"eslint-config-prettier": "9.0.0",
 		"eslint-plugin-svelte": "2.35.0",
 		"prettier": "3.1.0",
