@@ -12,7 +12,7 @@
 		"format": "prettier --plugin prettier-plugin-svelte --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "4.0.3",
+		"@sveltejs/adapter-vercel": "4.0.4",
 		"@sveltejs/kit": "2.0.6",
 		"@unocss/extractor-svelte": "0.58.3",
 		"@unocss/preset-icons": "0.58.3",
