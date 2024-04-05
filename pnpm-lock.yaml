@@ -15,8 +15,8 @@ devDependencies:
     specifier: 3.0.2
     version: 3.0.2(svelte@4.2.12)(vite@5.2.8)
   '@unocss/extractor-svelte':
-    specifier: 0.58.9
-    version: 0.58.9
+    specifier: 0.59.0
+    version: 0.59.0
   '@unocss/preset-icons':
     specifier: 0.58.9
     version: 0.58.9
@@ -24,8 +24,8 @@ devDependencies:
     specifier: 0.58.9
     version: 0.58.9
   '@unocss/transformer-variant-group':
-    specifier: 0.58.9
-    version: 0.58.9
+    specifier: 0.59.0
+    version: 0.59.0
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -2247,14 +2247,18 @@ packages:
     resolution: {integrity: sha512-wYpPIPPsOIbIoMIDuH8ihehJk5pAZmyFKXIYO/Kro98GEOFhz6lJoLsy6/PZuitlgp2/TSlubUuWGjHWvp5osw==}
     dev: true
 
+  /@unocss/core@0.59.0:
+    resolution: {integrity: sha512-9tXL6TV4FRpmFy70dHryA5NHsS7bV/x771LOPnZyiw+TRK4oGVk96IsATOflcn7L3FbXQY1mV+8Uzhkhx2PY0A==}
+    dev: true
+
   /@unocss/extractor-arbitrary-variants@0.58.9:
     resolution: {integrity: sha512-M/BvPdbEEMdhcFQh/z2Bf9gylO1Ky/ZnpIvKWS1YJPLt4KA7UWXSUf+ZNTFxX+X58Is5qAb5hNh/XBQmL3gbXg==}
     dependencies:
       '@unocss/core': 0.58.9
     dev: true
 
-  /@unocss/extractor-svelte@0.58.9:
-    resolution: {integrity: sha512-uyV9280r+RDa4llPOqvGPffYjky0lQgSGExiiSWHIyfyJGti/s9bJExfKgKq55G+Kqh5jWD1iANP3NAOtlZ7BA==}
+  /@unocss/extractor-svelte@0.59.0:
+    resolution: {integrity: sha512-0/SQ+fXgvjlexQbgeZr7eyfdf1bMQs/ZXHtsk2XcHuweChHLOd9HVFKuH9orX6rtvqytc87SLhxpukn93MvHpA==}
     dev: true
 
   /@unocss/inspector@0.58.9:
@@ -2393,6 +2397,12 @@ packages:
     resolution: {integrity: sha512-3A6voHSnFcyw6xpcZT6oxE+KN4SHRnG4z862tdtWvRGcN+jGyNr20ylEZtnbk4xj0VNMeGHHQRZ0WLvmrAwvOQ==}
     dependencies:
       '@unocss/core': 0.58.9
+    dev: true
+
+  /@unocss/transformer-variant-group@0.59.0:
+    resolution: {integrity: sha512-tjzWaMusoGy1uFEZuuzu04SOIooG2RkeX2wtlQpr2hM2Kl8ZG4QW+8nxClwLiLkarurBeFtTNXCn5jjL9MVg3g==}
+    dependencies:
+      '@unocss/core': 0.59.0
     dev: true
 
   /@unocss/vite@0.58.9(rollup@2.79.1)(vite@5.2.8):
