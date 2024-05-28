@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@sveltejs/adapter-vercel':
         specifier: 5.3.0
-        version: 5.3.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))
+        version: 5.3.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))
       '@sveltejs/kit':
         specifier: 2.5.10
-        version: 2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+        version: 2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: 3.1.0
-        version: 3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+        version: 3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       '@unocss/extractor-svelte':
         specifier: 0.60.3
         version: 0.60.3
@@ -55,13 +55,13 @@ importers:
         version: 5.4.5
       unocss:
         specifier: 0.60.3
-        version: 0.60.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))
+        version: 0.60.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))
       vite:
-        specifier: 5.2.11
-        version: 5.2.11(terser@5.31.0)
+        specifier: 5.2.12
+        version: 5.2.12(terser@5.31.0)
       vite-plugin-pwa:
         specifier: 0.20.0
-        version: 0.20.0(vite@5.2.11(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0)
+        version: 0.20.0(vite@5.2.12(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0)
 
 packages:
 
@@ -2717,8 +2717,8 @@ packages:
       '@vite-pwa/assets-generator':
         optional: true
 
-  vite@5.2.11:
-    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
+  vite@5.2.12:
+    resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3880,18 +3880,18 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/adapter-vercel@5.3.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))':
+  '@sveltejs/adapter-vercel@5.3.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))':
     dependencies:
-      '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+      '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       '@vercel/nft': 0.26.5
       esbuild: 0.20.2
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))':
+  '@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.0.0
@@ -3905,28 +3905,28 @@ snapshots:
       sirv: 2.0.4
       svelte: 4.2.17
       tiny-glob: 0.2.9
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
 
-  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       debug: 4.3.4
       svelte: 4.2.17
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))':
+  '@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.11(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.11(terser@5.31.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.17)(vite@5.2.12(terser@5.31.0)))(svelte@4.2.17)(vite@5.2.12(terser@5.31.0))
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.10
       svelte: 4.2.17
       svelte-hmr: 0.16.0(svelte@4.2.17)
-      vite: 5.2.11(terser@5.31.0)
-      vitefu: 0.2.5(vite@5.2.11(terser@5.31.0))
+      vite: 5.2.12(terser@5.31.0)
+      vitefu: 0.2.5(vite@5.2.12(terser@5.31.0))
     transitivePeerDependencies:
       - supports-color
 
@@ -3944,13 +3944,13 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@unocss/astro@0.60.3(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))':
+  '@unocss/astro@0.60.3(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))':
     dependencies:
       '@unocss/core': 0.60.3
       '@unocss/reset': 0.60.3
-      '@unocss/vite': 0.60.3(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))
+      '@unocss/vite': 0.60.3(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))
     optionalDependencies:
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
     transitivePeerDependencies:
       - rollup
 
@@ -4083,7 +4083,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.60.3
 
-  '@unocss/vite@0.60.3(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))':
+  '@unocss/vite@0.60.3(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.0(rollup@2.79.1)
@@ -4095,7 +4095,7 @@ snapshots:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.10
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
     transitivePeerDependencies:
       - rollup
 
@@ -5718,9 +5718,9 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unocss@0.60.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.11(terser@5.31.0)):
+  unocss@0.60.3(postcss@8.4.38)(rollup@2.79.1)(vite@5.2.12(terser@5.31.0)):
     dependencies:
-      '@unocss/astro': 0.60.3(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))
+      '@unocss/astro': 0.60.3(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))
       '@unocss/cli': 0.60.3(rollup@2.79.1)
       '@unocss/core': 0.60.3
       '@unocss/extractor-arbitrary-variants': 0.60.3
@@ -5739,9 +5739,9 @@ snapshots:
       '@unocss/transformer-compile-class': 0.60.3
       '@unocss/transformer-directives': 0.60.3
       '@unocss/transformer-variant-group': 0.60.3
-      '@unocss/vite': 0.60.3(rollup@2.79.1)(vite@5.2.11(terser@5.31.0))
+      '@unocss/vite': 0.60.3(rollup@2.79.1)(vite@5.2.12(terser@5.31.0))
     optionalDependencies:
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -5761,18 +5761,18 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-pwa@0.20.0(vite@5.2.11(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0):
+  vite-plugin-pwa@0.20.0(vite@5.2.12(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0):
     dependencies:
       debug: 4.3.4
       fast-glob: 3.3.2
       pretty-bytes: 6.1.1
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
       workbox-build: 7.1.0
       workbox-window: 7.1.0
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.11(terser@5.31.0):
+  vite@5.2.12(terser@5.31.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
@@ -5781,9 +5781,9 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.31.0
 
-  vitefu@0.2.5(vite@5.2.11(terser@5.31.0)):
+  vitefu@0.2.5(vite@5.2.12(terser@5.31.0)):
     optionalDependencies:
-      vite: 5.2.11(terser@5.31.0)
+      vite: 5.2.12(terser@5.31.0)
 
   webidl-conversions@3.0.1: {}
 
