@@ -28,7 +28,7 @@
 		"svelte-check": "3.8.4",
 		"typescript": "5.5.4",
 		"unocss": "0.61.5",
-		"vite": "5.3.4",
+		"vite": "5.3.5",
 		"vite-plugin-pwa": "0.20.0"
 	},
 	"type": "module"
