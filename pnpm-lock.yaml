@@ -60,8 +60,8 @@ importers:
         specifier: 5.4.3
         version: 5.4.3(terser@5.31.6)
       vite-plugin-pwa:
-        specifier: 0.20.3
-        version: 0.20.3(vite@5.4.3(terser@5.31.6))(workbox-build@7.1.1)(workbox-window@7.1.0)
+        specifier: 0.20.4
+        version: 0.20.4(vite@5.4.3(terser@5.31.6))(workbox-build@7.1.1)(workbox-window@7.1.0)
 
 packages:
 
@@ -2701,11 +2701,11 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite-plugin-pwa@0.20.3:
-    resolution: {integrity: sha512-aqCOWWSwfX4o6H+6NyEvhzFs3eENBqYFKUK4FYx5OZ3jGio73BE189bPz9+BBgjHBLozldQVSmZTHySVC2zNkg==}
+  vite-plugin-pwa@0.20.4:
+    resolution: {integrity: sha512-AreLrlstKCn56bzfIIhg5P4p12QNsYmHfKiSlrVk9FK8028IfBFeMvhQNSumBgQmb4RaHLm0SaOLvh/rzOImvw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@vite-pwa/assets-generator': ^0.2.4
+      '@vite-pwa/assets-generator': ^0.2.6
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0
       workbox-build: ^7.1.0
       workbox-window: ^7.1.0
@@ -5803,7 +5803,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-pwa@0.20.3(vite@5.4.3(terser@5.31.6))(workbox-build@7.1.1)(workbox-window@7.1.0):
+  vite-plugin-pwa@0.20.4(vite@5.4.3(terser@5.31.6))(workbox-build@7.1.1)(workbox-window@7.1.0):
     dependencies:
       debug: 4.3.6
       pretty-bytes: 6.1.1
