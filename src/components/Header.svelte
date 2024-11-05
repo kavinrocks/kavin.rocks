@@ -5,9 +5,9 @@
 	<nav>
 		<input type="checkbox" id="nav-toggle" />
 		<label for="nav-toggle" id="hamburger">
-			<span />
-			<span />
-			<span />
+			<span></span>
+			<span></span>
+			<span></span>
 		</label>
 		<ul id="nav-links">
 			<li><a href="/">Home</a></li>
