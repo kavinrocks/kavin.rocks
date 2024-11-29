@@ -30,7 +30,7 @@
 		"typescript": "5.7.2",
 		"unocss": "0.64.1",
 		"vite": "5.4.11",
-		"vite-plugin-pwa": "0.21.0"
+		"vite-plugin-pwa": "0.21.1"
 	},
 	"type": "module"
 }
