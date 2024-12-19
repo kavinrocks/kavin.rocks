@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@sveltejs/adapter-vercel':
         specifier: 5.5.2
-        version: 5.5.2(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(rollup@2.79.2)
+        version: 5.5.2(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(rollup@2.79.2)
       '@sveltejs/kit':
-        specifier: 2.12.1
-        version: 2.12.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
+        specifier: 2.12.2
+        version: 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: 4.0.4
         version: 4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
@@ -1237,8 +1237,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
-  '@sveltejs/kit@2.12.1':
-    resolution: {integrity: sha512-M3rPijGImeOkI0DBJSwjqz+YFX2DyOf6NzWgHVk3mqpT06dlYCpcv5xh1q4rYEqB58yQlk4QA1Y35PUqnUiFKw==}
+  '@sveltejs/kit@2.12.2':
+    resolution: {integrity: sha512-7/nHyKxo3wzBMownGgaVvEfM2TGLwjUKgmHhLw/Qbyb5xmJ+40vYa0V2XJqJ2fRnTCfCcJ0Ya51ZVNW3vtn4rA==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -4202,9 +4202,9 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
 
-  '@sveltejs/adapter-vercel@5.5.2(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(rollup@2.79.2)':
+  '@sveltejs/adapter-vercel@5.5.2(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(rollup@2.79.2)':
     dependencies:
-      '@sveltejs/kit': 2.12.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
+      '@sveltejs/kit': 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
       '@vercel/nft': 0.27.9(rollup@2.79.2)
       esbuild: 0.24.0
     transitivePeerDependencies:
@@ -4212,7 +4212,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))':
+  '@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0)))(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 4.0.4(svelte@5.14.4)(vite@5.4.11(terser@5.37.0))
       '@types/cookie': 0.6.0
