@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "5.5.2",
-		"@sveltejs/kit": "2.14.0",
+		"@sveltejs/kit": "2.14.1",
 		"@sveltejs/vite-plugin-svelte": "4.0.4",
 		"@unocss/extractor-svelte": "0.65.2",
 		"@unocss/preset-icons": "0.65.2",
