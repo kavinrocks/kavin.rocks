@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@sveltejs/adapter-vercel':
-        specifier: 5.6.0
-        version: 5.6.0(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(rollup@2.79.2)
+        specifier: 5.6.1
+        version: 5.6.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(rollup@2.79.2)
       '@sveltejs/kit':
         specifier: 2.16.1
         version: 2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0))
@@ -1241,8 +1241,8 @@ packages:
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
 
-  '@sveltejs/adapter-vercel@5.6.0':
-    resolution: {integrity: sha512-tgPT5Pyi0pQcaEf/3TWhQfCFQo++CxHPHvlDTMcE0yajJETRGBHFDZKn3hCsnX3NDCxgd9mr/jtHwOTBwIEeBg==}
+  '@sveltejs/adapter-vercel@5.6.1':
+    resolution: {integrity: sha512-ljeLT7p4VQtO9ux4p7MqSkNv+yMw9LcD0K8hl0TK495DhBbaBwOCx9jcp3+/RqGPzsTvTRJSiPRafIfiCjQqjQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -4222,7 +4222,7 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.12
 
-  '@sveltejs/adapter-vercel@5.6.0(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(rollup@2.79.2)':
+  '@sveltejs/adapter-vercel@5.6.1(@sveltejs/kit@2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(rollup@2.79.2)':
     dependencies:
       '@sveltejs/kit': 2.16.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.6)(vite@5.4.14(terser@5.37.0)))(svelte@5.19.6)(vite@5.4.14(terser@5.37.0))
       '@vercel/nft': 0.29.1(rollup@2.79.2)
