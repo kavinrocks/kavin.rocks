@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@sveltejs/adapter-vercel':
-        specifier: 5.6.3
-        version: 5.6.3(@sveltejs/kit@2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(rollup@2.79.2)
+        specifier: 5.7.0
+        version: 5.7.0(@sveltejs/kit@2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(rollup@2.79.2)
       '@sveltejs/kit':
         specifier: 2.20.4
         version: 2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0))
@@ -1254,8 +1254,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-vercel@5.6.3':
-    resolution: {integrity: sha512-V5ow05ziJ1LVzGthulVwmS1KfGY0Grxa/8PwhrQk+Iu2VThhrkC/5ZBagI0MmkJIsb25xT3JV9Px4GlWM2pCVg==}
+  '@sveltejs/adapter-vercel@5.7.0':
+    resolution: {integrity: sha512-Bd/loKugyr12I576NaktLzIHa0PinS638wuWgVq4ctPg/qmkeU459jurWjs3NiRN/pbBpXOlk8i8HXgQF+dsUg==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -4250,7 +4250,7 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/adapter-vercel@5.6.3(@sveltejs/kit@2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(rollup@2.79.2)':
+  '@sveltejs/adapter-vercel@5.7.0(@sveltejs/kit@2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(rollup@2.79.2)':
     dependencies:
       '@sveltejs/kit': 2.20.4(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.6)(vite@5.4.17(terser@5.39.0)))(svelte@5.25.6)(vite@5.4.17(terser@5.39.0))
       '@vercel/nft': 0.29.2(rollup@2.79.2)
