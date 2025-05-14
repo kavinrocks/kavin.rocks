@@ -26,7 +26,7 @@
 		"prettier": "3.5.3",
 		"prettier-plugin-svelte": "3.4.0",
 		"svelte": "5.28.6",
-		"svelte-check": "4.1.7",
+		"svelte-check": "4.2.0",
 		"typescript": "5.8.3",
 		"unocss": "0.65.4",
 		"vite": "5.4.19",
