@@ -63,8 +63,8 @@ importers:
         specifier: 6.3.5
         version: 6.3.5(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3)
       vite-plugin-pwa:
-        specifier: 1.0.1
-        version: 1.0.1(vite@6.3.5(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3))(workbox-build@7.3.0)(workbox-window@7.3.0)
+        specifier: 1.0.2
+        version: 1.0.2(vite@6.3.5(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3))(workbox-build@7.3.0)(workbox-window@7.3.0)
 
 packages:
 
@@ -2662,8 +2662,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite-plugin-pwa@1.0.1:
-    resolution: {integrity: sha512-STyUomQbydj7vGamtgQYIJI0YsUZ3T4pJLGBQDQPhzMse6aGSncmEN21OV35PrFsmCvmtiH+Nu1JS1ke4RqBjQ==}
+  vite-plugin-pwa@1.0.2:
+    resolution: {integrity: sha512-O3UwjsCnoDclgJANoOgzzqW7SFgwXE/th2OmUP/ILxHKwzWxxKDBu+B/Xa9Cv4IgSVSnj2HgRVIJ7F15+vQFkA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@vite-pwa/assets-generator': ^1.0.0
@@ -5799,7 +5799,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-pwa@1.0.1(vite@6.3.5(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3))(workbox-build@7.3.0)(workbox-window@7.3.0):
+  vite-plugin-pwa@1.0.2(vite@6.3.5(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3))(workbox-build@7.3.0)(workbox-window@7.3.0):
     dependencies:
       debug: 4.4.1
       pretty-bytes: 6.1.1
