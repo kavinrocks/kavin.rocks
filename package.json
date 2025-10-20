@@ -29,7 +29,7 @@
 		"svelte-check": "4.3.3",
 		"typescript": "5.9.3",
 		"unocss": "0.65.4",
-		"vite": "6.4.0",
+		"vite": "6.4.1",
 		"vite-plugin-pwa": "1.1.0"
 	},
 	"type": "module"
