@@ -27,7 +27,7 @@
 		"prettier-plugin-svelte": "3.5.1",
 		"svelte": "5.55.0",
 		"svelte-check": "4.4.5",
-		"typescript": "5.9.3",
+		"typescript": "6.0.2",
 		"unocss": "0.65.4",
 		"vite": "6.4.1",
 		"vite-plugin-pwa": "1.2.0"
